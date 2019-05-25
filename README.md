@@ -1,6 +1,6 @@
 
 ```javascript
-// question 1 (understanding about this)
+// question 1 (understanding of the this)
 
 function foo() {
     console.log('my name is ' + this.name);
