@@ -1,5 +1,5 @@
 
-```
+```javascript
 // question 1 (understanding about this)
 
 function foo() {
