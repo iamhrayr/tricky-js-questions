@@ -5,6 +5,8 @@ function foo() {
 }
 var name = 'Samuel';
 var obj = { name: 'Sam' };
+
+// what is the result?
 (obj.foo = foo)();
 ```
 
@@ -17,6 +19,7 @@ const arrayLikeObj = {
     1: 'one',
 };
 
+// what is the result?
 console.log(Object.keys(arrayLikeObj)[0] === 0);
 ```
 
@@ -24,5 +27,6 @@ console.log(Object.keys(arrayLikeObj)[0] === 0);
 const myObject = {};
 myObject[{}] = 15;
 
+// what is the result?
 console.log(myObject[myObject]);
 ```
