@@ -12,8 +12,8 @@ var obj = { name: 'Sam' };
 2. object keys are always string 
 ```javascript
 const arrayLikeObj = {
-	0: 'zero',
-	1: 'one',
+    0: 'zero',
+    1: 'one',
 }
 
 Object.keys(arrayLikeObj)[0] === 0 // false, because it's converted to "0"
