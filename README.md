@@ -8,6 +8,7 @@ var obj = { name: 'Sam' };
 (obj.foo = foo)();
 ```
 
+----
 
 2. object keys are always string 
 ```javascript
