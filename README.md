@@ -1,4 +1,4 @@
-1. `this` in JavaScript
+1. understanding `this` in JavaScript
 ```javascript
 function foo() {
     console.log('my name is ' + this.name);
