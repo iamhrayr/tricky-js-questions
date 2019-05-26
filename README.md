@@ -14,7 +14,14 @@ var obj = { name: 'Sam' };
 const arrayLikeObj = {
     0: 'zero',
     1: 'one',
-}
+};
 
-Object.keys(arrayLikeObj)[0] === 0 // false, because it's converted to "0"
+console.log(Object.keys(arrayLikeObj)[0] === 0);
+```
+
+```javascript
+const myObject = {};
+myObject[{}] = 15;
+
+console.log(myObject[myObject]);
 ```
