@@ -12,7 +12,7 @@ var obj = { name: 'Sam' };
 
 ----
 
-2. object keys are always string 
+2. object keys in JavaScript 
 ```javascript
 const arrayLikeObj = {
     0: 'zero',
