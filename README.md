@@ -30,3 +30,17 @@ myObject[{}] = 15;
 // what is the result?
 console.log(myObject[myObject]);
 ```
+----
+
+3. reasigning object value 
+```javascript
+const obj = {};
+Object.defineProperty(obj, "a", {
+	writeable: false,
+});
+const obj2 = Object.create(obj);
+obj2.a = 16;
+
+// what is the result?
+console.log(obj2.a);
+```
