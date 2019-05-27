@@ -36,7 +36,8 @@ console.log(myObject[myObject]);
 ```javascript
 const obj = {};
 Object.defineProperty(obj, "a", {
-	writeable: false,
+    writeable: false,
+    value: 25,
 });
 const obj2 = Object.create(obj);
 obj2.a = 16;
