@@ -60,3 +60,15 @@ obj2.a++;
 console.log(obj2.a);
 console.log(obj1.a);
 ```
+
+----
+
+5.  
+```javascript
+const func = async () => {
+    return true;
+};
+
+// what is the result?
+console.log(typeof func());
+```
