@@ -72,3 +72,11 @@ const func = async () => {
 // what is the result?
 console.log(typeof func());
 ```
+
+----
+
+6.  
+```javascript
+// what is the result?
+console.log(019 - 016);
+```
