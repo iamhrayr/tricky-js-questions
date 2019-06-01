@@ -99,6 +99,8 @@ console.log(a(10));
 console.log(Math.max() > Math.min());
 ```
 
+----
+
 9.
 ```javascript
 var count = 0;
