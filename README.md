@@ -80,3 +80,13 @@ console.log(typeof func());
 // what is the result?
 console.log(019 - 016);
 ```
+
+----
+
+7.
+```javascript
+const a = a => a;
+
+// what is the result?
+console.log(a(10));
+```
