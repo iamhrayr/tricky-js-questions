@@ -90,3 +90,12 @@ const a = a => a;
 // what is the result?
 console.log(a(10));
 ```
+
+----
+
+8.
+```javascript
+// what is the result?
+console.log(Math.max() > Math.min());
+```
+
