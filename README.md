@@ -99,3 +99,12 @@ console.log(a(10));
 console.log(Math.max() > Math.min());
 ```
 
+9.
+```javascript
+var count = 0;
+for (var i = 0.1; i % 0.1 === 0; i += 0.1) {
+	count++;
+}
+
+console.log(count);
+```
