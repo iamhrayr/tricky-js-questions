@@ -105,8 +105,9 @@ console.log(Math.max() > Math.min());
 ```javascript
 var count = 0;
 for (var i = 0.1; i % 0.1 === 0; i += 0.1) {
-	count++;
+    count++;
 }
 
+// what is the result?
 console.log(count);
 ```
