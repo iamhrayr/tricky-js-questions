@@ -111,3 +111,12 @@ for (var i = 0.1; i % 0.1 === 0; i += 0.1) {
 // what is the result?
 console.log(count);
 ```
+
+----
+
+10.
+```javascript
+console.log(x == 1 && x == 2 && x == 3) // true
+
+// what is the value of x?
+```
