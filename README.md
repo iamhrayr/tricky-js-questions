@@ -128,6 +128,7 @@ console.log(x == 1 && x == 2 && x == 3) // true
 const asyncFn = () => {
     return new Promise((resolve) => {
         console.log('I am in promise')
+        resolve()
     })
 }
 
