@@ -126,9 +126,9 @@ console.log(x == 1 && x == 2 && x == 3) // true
 11. What's the order of the logged messages
 ```javascript
 const asyncFn = () => {
-	return new Promise((resolve) => {
-		console.log('I am in promise')
-	})
+    return new Promise((resolve) => {
+        console.log('I am in promise')
+    })
 }
 
 console.log('I am outside')
