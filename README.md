@@ -131,5 +131,6 @@ const asyncFn = () => {
     })
 }
 
+asyncFn()
 console.log('I am outside')
 ```
