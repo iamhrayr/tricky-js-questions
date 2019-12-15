@@ -135,3 +135,11 @@ const asyncFn = () => {
 asyncFn()
 console.log('I am outside')
 ```
+
+----
+
+12. 
+```javascript
+console.log(a == !a) // true
+// what is the value of a?
+```
