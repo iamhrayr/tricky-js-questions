@@ -143,3 +143,12 @@ console.log('I am outside')
 console.log(a == !a) // true
 // what is the value of a?
 ```
+
+----
+
+13. 
+```javascript
+(function() {
+  console.log(typeof this);
+}).call(10)
+```
