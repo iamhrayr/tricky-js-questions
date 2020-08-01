@@ -161,3 +161,9 @@ console.log(value !== value) // true
 // what is the value?
 // NaN
 ```
+
+----
+
+15. 
+`{} + '1'` and `'1' + {}` return different results, explain why
+```
