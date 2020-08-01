@@ -152,3 +152,11 @@ console.log(a == !a) // true
   console.log(typeof this);
 }).call(10)
 ```
+
+----
+
+14. 
+```javascript
+console.log(value != value) // true
+// what is the value?
+```
