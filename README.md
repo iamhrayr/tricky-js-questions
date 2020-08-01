@@ -157,6 +157,7 @@ console.log(a == !a) // true
 
 14. 
 ```javascript
-console.log(value != value) // true
+console.log(value !== value) // true
 // what is the value?
+// NaN
 ```
