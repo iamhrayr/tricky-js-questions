@@ -166,4 +166,22 @@ console.log(value !== value) // true
 
 15. 
 `{} + '1'` and `'1' + {}` return different results, explain why
+
+
+----
+
+
+16.
+
+```js
+// what's the return value?
+(function(){
+    let i = 0;
+    try {
+        return i;
+    } finally {
+        i = 1;
+        return 2;
+    }
+})()
 ```
